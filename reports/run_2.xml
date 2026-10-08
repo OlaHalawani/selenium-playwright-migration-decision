@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SeleniumRegressionSuite" tests="120" time="1104.88">
+  <testcase classname="regression" name="file_download_000" time="7.34">
+    <failure message="AssertionError: expected balance 500 but got 480"/>
+  </testcase>
+  <testcase classname="regression" name="signup_form_001" time="12.41">
+    <failure message="NoSuchElementException: Unable to locate element: css selector"/>
+  </testcase>
+  <testcase classname="regression" name="pagination_002" time="10.55"/>
+  <testcase classname="regression" name="profile_update_003" time="6.37"/>
+  <testcase classname="regression" name="file_download_004" time="10.76"/>
+  <testcase classname="regression" name="search_results_005" time="9.96"/>
+  <testcase classname="regression" name="search_results_006" time="12.30"/>
+  <testcase classname="regression" name="nav_menu_007" time="11.97">
+    <failure message="AssertionError: expected balance 500 but got 480"/>
+  </testcase>
+  <testcase classname="regression" name="settings_toggle_008" time="11.78">
+    <failure message="TimeoutException: Timed out waiting for element to be clickable"/>
+  </testcase>
+  <testcase classname="regression" name="remove_from_cart_009" time="12.77"/>
+  <testcase classname="regression" name="forgot_password_010" time="6.81"/>
+  <testcase classname="regression" name="forgot_password_011" time="9.10"/>
+  <testcase classname="regression" name="modal_confirm_012" time="9.29"/>
+  <testcase classname="regression" name="add_to_cart_013" time="5.74"/>
+  <testcase classname="regression" name="modal_confirm_014" time="8.85">
+    <failure message="AssertionError: expected status 'APPROVED' but got 'PENDING'"/>
+  </testcase>
+  <testcase classname="regression" name="add_to_cart_015" time="9.25"/>
+  <testcase classname="regression" name="modal_confirm_016" time="8.10"/>
+  <testcase classname="regression" name="file_download_017" time="9.94"/>
+  <testcase classname="regression" name="signup_form_018" time="7.77"/>
+  <testcase classname="regression" name="file_upload_019" time="5.96"/>
+  <testcase classname="regression" name="login_020" time="5.84"/>
+  <testcase classname="regression" name="signup_form_021" time="6.28"/>
+  <testcase classname="regression" name="filter_table_022" time="6.08"/>
+  <testcase classname="regression" name="remove_from_cart_023" time="11.73"/>
+  <testcase classname="regression" name="signup_form_024" time="7.43"/>
+  <testcase classname="regression" name="logout_025" time="12.89"/>
+  <testcase classname="regression" name="file_download_026" time="7.95"/>
+  <testcase classname="regression" name="nav_menu_027" time="7.73"/>
+  <testcase classname="regression" name="sort_table_028" time="5.19"/>
+  <testcase classname="regression" name="filter_table_029" time="8.68"/>
+  <testcase classname="regression" name="file_download_030" time="7.03"/>
+  <testcase classname="regression" name="modal_confirm_031" time="8.30"/>
+  <testcase classname="regression" name="file_download_032" time="10.31"/>
+  <testcase classname="regression" name="search_results_033" time="8.98"/>
+  <testcase classname="regression" name="modal_cancel_034" time="10.48"/>
+  <testcase classname="regression" name="sort_table_035" time="11.28"/>
+  <testcase classname="regression" name="add_to_cart_036" time="12.60"/>
+  <testcase classname="regression" name="remove_from_cart_037" time="9.92"/>
+  <testcase classname="regression" name="remove_from_cart_038" time="8.10"/>
+  <testcase classname="regression" name="profile_update_039" time="8.79">
+    <failure message="AssertionError: expected balance 500 but got 480"/>
+  </testcase>
+  <testcase classname="regression" name="settings_toggle_040" time="9.98"/>
+  <testcase classname="regression" name="search_results_041" time="6.57"/>
+  <testcase classname="regression" name="signup_form_042" time="12.24"/>
+  <testcase classname="regression" name="modal_cancel_043" time="10.55">
+    <failure message="AssertionError: expected status 'APPROVED' but got 'PENDING'"/>
+  </testcase>
+  <testcase classname="regression" name="multi_page_wizard_044" time="6.75"/>
+  <testcase classname="regression" name="api_dependent_fetch_045" time="8.55"/>
+  <testcase classname="regression" name="sort_table_046" time="9.72"/>
+  <testcase classname="regression" name="multi_page_wizard_047" time="10.27"/>
+  <testcase classname="regression" name="modal_cancel_048" time="11.59"/>
+  <testcase classname="regression" name="signup_form_049" time="9.53"/>
+  <testcase classname="regression" name="remove_from_cart_050" time="11.01">
+    <failure message="AssertionError: expected balance 500 but got 480"/>
+  </testcase>
+  <testcase classname="regression" name="login_051" time="11.54"/>
+  <testcase classname="regression" name="nav_menu_052" time="7.51"/>
+  <testcase classname="regression" name="modal_confirm_053" time="10.81"/>
+  <testcase classname="regression" name="login_054" time="12.72"/>
+  <testcase classname="regression" name="file_download_055" time="5.37"/>
+  <testcase classname="regression" name="remove_from_cart_056" time="13.62"/>
+  <testcase classname="regression" name="settings_toggle_057" time="8.93">
+    <failure message="TimeoutException: Timed out waiting for element to be clickable"/>
+  </testcase>
+  <testcase classname="regression" name="logout_058" time="9.33"/>
+  <testcase classname="regression" name="signup_form_059" time="6.28"/>
+  <testcase classname="regression" name="modal_cancel_060" time="11.70"/>
+  <testcase classname="regression" name="settings_toggle_061" time="10.46"/>
+  <testcase classname="regression" name="add_to_cart_062" time="12.26"/>
+  <testcase classname="regression" name="logout_063" time="10.06"/>
+  <testcase classname="regression" name="api_dependent_fetch_064" time="5.48"/>
+  <testcase classname="regression" name="api_dependent_fetch_065" time="8.23">
+    <failure message="AssertionError: expected balance 500 but got 480"/>
+  </testcase>
+  <testcase classname="regression" name="nav_menu_066" time="6.48"/>
+  <testcase classname="regression" name="settings_toggle_067" time="9.95">
+    <failure message="NoSuchElementException: Unable to locate element: css selector"/>
+  </testcase>
+  <testcase classname="regression" name="multi_page_wizard_068" time="9.49"/>
+  <testcase classname="regression" name="settings_toggle_069" time="9.24"/>
+  <testcase classname="regression" name="file_download_070" time="8.34"/>
+  <testcase classname="regression" name="logout_071" time="9.24"/>
+  <testcase classname="regression" name="remove_from_cart_072" time="11.60"/>
+  <testcase classname="regression" name="file_upload_073" time="10.22"/>
+  <testcase classname="regression" name="remove_from_cart_074" time="6.98"/>
+  <testcase classname="regression" name="remove_from_cart_075" time="11.51"/>
+  <testcase classname="regression" name="filter_table_076" time="8.92"/>
+  <testcase classname="regression" name="login_077" time="8.94"/>
+  <testcase classname="regression" name="search_results_078" time="7.36"/>
+  <testcase classname="regression" name="remove_from_cart_079" time="5.95"/>
+  <testcase classname="regression" name="login_080" time="10.47"/>
+  <testcase classname="regression" name="api_dependent_fetch_081" time="11.02"/>
+  <testcase classname="regression" name="signup_form_082" time="7.51"/>
+  <testcase classname="regression" name="forgot_password_083" time="9.85"/>
+  <testcase classname="regression" name="sort_table_084" time="10.32"/>
+  <testcase classname="regression" name="remove_from_cart_085" time="9.03">
+    <failure message="TimeoutException: Timed out waiting for element to be clickable"/>
+  </testcase>
+  <testcase classname="regression" name="file_upload_086" time="9.07"/>
+  <testcase classname="regression" name="profile_update_087" time="6.44"/>
+  <testcase classname="regression" name="nav_menu_088" time="6.06"/>
+  <testcase classname="regression" name="settings_toggle_089" time="9.40"/>
+  <testcase classname="regression" name="sort_table_090" time="7.59"/>
+  <testcase classname="regression" name="modal_confirm_091" time="9.36"/>
+  <testcase classname="regression" name="signup_form_092" time="7.94">
+    <failure message="AssertionError: expected balance 500 but got 480"/>
+  </testcase>
+  <testcase classname="regression" name="multi_page_wizard_093" time="8.98"/>
+  <testcase classname="regression" name="settings_toggle_094" time="7.79"/>
+  <testcase classname="regression" name="signup_form_095" time="9.30"/>
+  <testcase classname="regression" name="file_upload_096" time="6.10"/>
+  <testcase classname="regression" name="modal_confirm_097" time="6.98"/>
+  <testcase classname="regression" name="modal_confirm_098" time="8.23"/>
+  <testcase classname="regression" name="pagination_099" time="8.02"/>
+  <testcase classname="regression" name="file_download_100" time="10.22"/>
+  <testcase classname="regression" name="login_101" time="7.58"/>
+  <testcase classname="regression" name="add_to_cart_102" time="9.78"/>
+  <testcase classname="regression" name="file_upload_103" time="12.38"/>
+  <testcase classname="regression" name="signup_form_104" time="12.37"/>
+  <testcase classname="regression" name="checkout_flow_105" time="9.88"/>
+  <testcase classname="regression" name="file_upload_106" time="13.85"/>
+  <testcase classname="regression" name="filter_table_107" time="7.35"/>
+  <testcase classname="regression" name="multi_page_wizard_108" time="8.98"/>
+  <testcase classname="regression" name="forgot_password_109" time="12.53"/>
+  <testcase classname="regression" name="filter_table_110" time="9.30">
+    <failure message="NoSuchElementException: Unable to locate element: css selector"/>
+  </testcase>
+  <testcase classname="regression" name="profile_update_111" time="11.49"/>
+  <testcase classname="regression" name="modal_cancel_112" time="5.57"/>
+  <testcase classname="regression" name="checkout_flow_113" time="11.77"/>
+  <testcase classname="regression" name="checkout_flow_114" time="7.13"/>
+  <testcase classname="regression" name="file_download_115" time="8.96"/>
+  <testcase classname="regression" name="filter_table_116" time="5.46"/>
+  <testcase classname="regression" name="multi_page_wizard_117" time="10.79"/>
+  <testcase classname="regression" name="filter_table_118" time="10.04"/>
+  <testcase classname="regression" name="settings_toggle_119" time="12.10"/>
+</testsuite>

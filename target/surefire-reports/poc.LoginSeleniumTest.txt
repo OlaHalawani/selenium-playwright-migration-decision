@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: poc.LoginSeleniumTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 17.08 s <<< FAILURE! -- in poc.LoginSeleniumTest
+poc.LoginSeleniumTest.loginSucceedsAndShowsDashboard -- Time elapsed: 17.05 s <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=154.0.8037.98)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '27.0.1', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c4bb78f8794ad6843ce22172df362363, get {url=https://app.example.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.98, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: /var/folders/wx/tcql9lq13qz...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56785}, goog:processID: 21423, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56785/devtoo..., se:cdpVersion: 154.0.8037.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c4bb78f8794ad6843ce22172df362363
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at poc.LoginSeleniumTest.loginSucceedsAndShowsDashboard(LoginSeleniumTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+

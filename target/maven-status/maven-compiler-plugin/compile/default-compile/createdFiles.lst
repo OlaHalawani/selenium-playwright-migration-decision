@@ -1,0 +1,5 @@
+migration/GenerateFixtureReports.class
+migration/DecisionScorecard$Criterion.class
+migration/AnalyzeSuite.class
+migration/DecisionScorecard.class
+migration/AnalyzeSuite$Attempt.class

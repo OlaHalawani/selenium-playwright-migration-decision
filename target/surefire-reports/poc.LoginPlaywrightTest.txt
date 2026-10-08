@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: poc.LoginPlaywrightTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 61.15 s <<< FAILURE! -- in poc.LoginPlaywrightTest
+poc.LoginPlaywrightTest.loginSucceedsAndShowsDashboard -- Time elapsed: 0.372 s <<< ERROR!
+com.microsoft.playwright.PlaywrightException: 
+Error {
+  message='net::ERR_NAME_NOT_RESOLVED at https://app.example.com/login
+  name='Error
+  stack='Error: net::ERR_NAME_NOT_RESOLVED at https://app.example.com/login
+    at FrameSession._navigate (/private/var/folders/wx/tcql9lq13qz6mbny915s3qdr0000gp/T/playwright-java-929920784330422656/package/lib/server/chromium/crPage.js:509:35)
+    at async Frame._gotoAction (/private/var/folders/wx/tcql9lq13qz6mbny915s3qdr0000gp/T/playwright-java-929920784330422656/package/lib/server/frames.js:535:28)
+}
+Call log:
+- navigating to "https://app.example.com/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5473)
+	at poc.LoginPlaywrightTest.loginSucceedsAndShowsDashboard(LoginPlaywrightTest.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='net::ERR_NAME_NOT_RESOLVED at https://app.example.com/login
+  name='Error
+  stack='Error: net::ERR_NAME_NOT_RESOLVED at https://app.example.com/login
+    at FrameSession._navigate (/private/var/folders/wx/tcql9lq13qz6mbny915s3qdr0000gp/T/playwright-java-929920784330422656/package/lib/server/chromium/crPage.js:509:35)
+    at async Frame._gotoAction (/private/var/folders/wx/tcql9lq13qz6mbny915s3qdr0000gp/T/playwright-java-929920784330422656/package/lib/server/frames.js:535:28)
+}
+Call log:
+- navigating to "https://app.example.com/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 13 more
+

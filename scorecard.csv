@@ -1,0 +1,8 @@
+criterion,weight,selenium,playwright
+Stability (flaky / total runs),0.20,2,4
+Execution time,0.10,2,4
+Maintenance after a controlled UI change,0.20,2,4
+Debugging (traces/screenshots/logs),0.15,2,5
+CI/CD parallel execution,0.15,2,4
+Coverage of the app's real needs,0.10,3,4
+Team cost (learning curve + migration),0.10,5,2
